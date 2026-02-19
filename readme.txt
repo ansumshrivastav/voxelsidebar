@@ -11,6 +11,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Adds a collapsible sidebar menu with toggle functionality and localStorage persistence. Prevents layout shift on page reload.
 
+Youtube Video Template Setup:
+https://youtu.be/W9HeI950dAY
+
+
 == Description ==
 
 Voxel Sidebar Toggle enhances your dashboard or admin layout with a collapsible navigation sidebar. Users can collapse the sidebar to save space and the preference is remembered across page reloads. The plugin applies the saved state before the first paint to avoid layout shift (CLS).
