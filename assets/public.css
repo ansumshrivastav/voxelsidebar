@@ -1,0 +1,42 @@
+.main-sidebar nav ul {
+    overflow: hidden !important;
+}
+
+.main-sidebar.active .menu-text {
+display: none;
+}
+
+.main-sidebar.active {
+display: block;
+}
+
+.content-wrapper {
+    margin-left: 300px;
+}
+
+.main-sidebar .ts-nav-menu>ul.ts-nav-vertical {
+    gap: 8px;
+}
+.main-sidebar.active .menu-item .ts-item-link  {
+    border-radius: 100% !important;
+}
+
+.main-sidebar.active .menu-item .ts-item-link span {
+    opacity: 0;
+}
+.sa-toggle{
+    cursor: pointer;
+}
+.main-sidebar {
+    transition: all 0.3s ease;
+}
+
+.main-sidebar.active {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .content-wrapper {
+        margin-left: 0 !important;
+    }
+}
