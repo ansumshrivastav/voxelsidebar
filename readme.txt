@@ -49,23 +49,18 @@ Your theme or template must include these CSS classes for the plugin to work:
 
 == Example HTML Structure ==
 
-    <aside class="main-sidebar">
-      <nav>
-        <ul>
-          <li><a href="#">Overview</a></li>
-          <li><a href="#">Forms</a></li>
-        </ul>
-      </nav>
-    </aside>
+    container : 1 (main sidebar) : css class: main-sidebar
 
     <header>
       <button class="sa-toggle" aria-label="Toggle sidebar">☰</button>
       <h1>Your App Name</h1>
     </header>
+Toggle button: css class: sa-toggle
 
     <main class="content-wrapper">
       <!-- Your main content here -->
     </main>
+Content container: css class: content-wrapper
 
 == Changelog ==
 
